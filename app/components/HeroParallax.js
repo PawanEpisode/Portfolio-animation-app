@@ -156,14 +156,14 @@ function Parallax() {
     return (
         <motion.main className="parallax-outer">
             <div ref={parallaxRef} style={{ background: `linear-gradient(#0F2B9C, #673D7D ${background}%, #A74A67, #EDFC54 )` }} className='parallax'>
-                <img ref={mountain3} className='mountain-3' src="/parallax/mountain-3.svg" />
-                <img ref={mountain2} className='mountain-2' src="/parallax/mountain-2.svg" />
-                <img ref={mountain1} className='mountain-1' src="/parallax/mountain-1.svg" />
-                <img ref={sun} className='sun' src="/parallax/sun.svg" />
-                <img ref={cloudsBottom} className='clouds-bottom' src="/parallax/cloud-bottom.svg" />
-                <img ref={cloudsLeft} className='clouds-left' src="/parallax/clouds-left.svg" />
-                <img ref={cloudsRight} className='clouds-right' src="/parallax/clouds-right.svg" />
-                <img ref={stars} className='stars' src="/parallax/stars.svg" />
+                <img ref={mountain3} className='mountain-3' src="/parallax/mountain-3.svg" alt='parallax-mountain3' />
+                <img ref={mountain2} className='mountain-2' src="/parallax/mountain-2.svg" alt='parallax-mountain2' />
+                <img ref={mountain1} className='mountain-1' src="/parallax/mountain-1.svg" alt='parallax-mountain1' />
+                <img ref={sun} className='sun' src="/parallax/sun.svg" alt='parallax-sun' />
+                <img ref={cloudsBottom} className='clouds-bottom' src="/parallax/cloud-bottom.svg" alt='parallax-cloudbottom' />
+                <img ref={cloudsLeft} className='clouds-left' src="/parallax/clouds-left.svg" alt='parallax-clouds-left' />
+                <img ref={cloudsRight} className='clouds-right' src="/parallax/clouds-right.svg" alt='parallax-clouds-right' />
+                <img ref={stars} className='stars' src="/parallax/stars.svg" alt='parallax-stars' />
                 <div ref={copy} className="copy">
                     <h1>Code is like humor. When you have to explain it, it’s bad. – Cory House</h1>
                     <h1>I’m not a great programmer; I’m just a good programmer with great habits. ― Kent Beck</h1>

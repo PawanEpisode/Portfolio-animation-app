@@ -52,7 +52,7 @@ const testimonials2 = [
     },
 ];
 
-export default function Index() {
+export default function SlidingTestimonials() {
 
     const container = useRef(null);
     const { scrollYProgress } = useScroll({
@@ -72,7 +72,7 @@ export default function Index() {
                             return <div key={index} className={styles.project} >
                                 <div className=" bg-sky-100 text-sky-700 p-8 rounded-lg shadow-md max-w-lg text-center">
                                     <p className="text-lg mb-4">
-                                    &quot{project.text}&quot
+                                    &quot;{project.text}&quot;
                                     </p>
                                     <p className="font-semibold">
                                         {project.name}
@@ -88,7 +88,7 @@ export default function Index() {
                         return <div key={index} className={styles.project} >
                             <div className="bg-cyan-100 text-cyan-700 p-8 rounded-lg shadow-md max-w-lg text-center">
                                 <p className="text-lg mb-4">
-                                &quot{project.text}&quot
+                                &quot;{project.text}&quot;
                                 </p>
                                 <p className="font-semibold">
                                     {project.name}

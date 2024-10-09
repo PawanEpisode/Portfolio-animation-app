@@ -7,7 +7,7 @@ import Magnetic from '../../common/Magnetic';
 import Link from 'next/link';
 import DateTimeComponent from '../DateTime';
 
-export default function Index() {
+export default function Contact() {
     const container = useRef(null);
     const { scrollYProgress } = useScroll({
         target: container,

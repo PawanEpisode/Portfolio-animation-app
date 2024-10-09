@@ -13,7 +13,7 @@ const SUMMARY_EXPERTISE = [
     "Effective collaboration with cross-functional teams through strong communication."
 ]
 
-export default function Index() {
+export default function ProfileDescription() {
 
     const phrase1 = "Helping brands to stand out in the digital era. Together we will set the new status quo. No nonsense, always on the cutting edge.";
     const description = useRef(null);
