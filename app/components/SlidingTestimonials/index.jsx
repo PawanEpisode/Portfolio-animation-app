@@ -4,55 +4,55 @@ import styles from './style.module.scss';
 
 const testimonials1 = [
     {
-    name: "Honey Sharma",
+    name: "Peter Parker",
     text: "Amazing work! The website exceeded our expectations.",
     },
     {
-    name: "Soumanta Das",
+    name: "Jon Snow",
     text: "Amazing work! The website exceeded our expectations.",
     },
     {
-    name: "Akash Sharma",
+    name: "Monkey D. Luffy",
     text: "Highly skilled developer. Would definitely work with again.",
     },
     {
-    name: "Usman Ali",
+    name: "Tony Stark",
     text: "Delivered the project on time with excellent quality.",
     },
     {
-    name: "Jitendra Pathak",
+    name: "The Professor",
     text: "Highly skilled developer. Would definitely work with again.",
     },
     {
-    name: "Sakshi Mehra",
+    name: "Rocky Balbola",
     text: "Delivered the project on time with excellent quality.",
     },
 ];
 
 const testimonials2 = [
     {
-    name: "Soumanta Das",
+    name: "Jon Snow",
     text: "Amazing work! The website exceeded our expectations.",
     },
     {
-    name: "Akash Sharma",
+    name: "Tony Stark",
     text: "Highly skilled developer. Would definitely work with again.",
     },
     {
-    name: "Jitendra Pathak",
+    name: "Peter Parker",
     text: "Highly skilled developer. Would definitely work with again.",
     },
     {
-    name: "Sakshi Mehra",
+    name: "Rocky Balbola",
     text: "Delivered the project on time with excellent quality.",
     },
     {
-    name: "Usman Ali",
+    name: "Monkey D. Luffy",
     text: "Delivered the project on time with excellent quality.",
     },
 ];
 
-export default function index() {
+export default function Index() {
 
     const container = useRef(null);
     const { scrollYProgress } = useScroll({
@@ -72,7 +72,7 @@ export default function index() {
                             return <div key={index} className={styles.project} >
                                 <div className=" bg-sky-100 text-sky-700 p-8 rounded-lg shadow-md max-w-lg text-center">
                                     <p className="text-lg mb-4">
-                                        "{project.text}"
+                                    &quot{project.text}&quot
                                     </p>
                                     <p className="font-semibold">
                                         {project.name}
@@ -88,7 +88,7 @@ export default function index() {
                         return <div key={index} className={styles.project} >
                             <div className="bg-cyan-100 text-cyan-700 p-8 rounded-lg shadow-md max-w-lg text-center">
                                 <p className="text-lg mb-4">
-                                    "{project.text}"
+                                &quot{project.text}&quot
                                 </p>
                                 <p className="font-semibold">
                                     {project.name}

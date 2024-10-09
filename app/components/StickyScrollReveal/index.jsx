@@ -67,7 +67,7 @@ export const StickyScroll = ({ content }) => {
         <div className=" w-full sticky top-12 flex justify-center h-[80vh] overflow-hidden p-10">
         <div className="w-full">
                 {content.map((item, index) => ( activeCard === index ? 
-                <div ref={contentRef} className="w-full shadow-2xl rounded-3xl 
+                <div key={item.title + index} ref={contentRef} className="w-full shadow-2xl rounded-3xl 
                 flex flex-col justify-center gap-6 items-center px-4 py-10 border-2 border-[rgba(6, 182, 212, 0.8)] ">
                     <h2 style={getGradientStyle(index)} className="w-full text-6xl leading-2 text-center font-bold">{item.title}</h2>
                     <div className="w-full flex justify-center items-center">
