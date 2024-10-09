@@ -1,0 +1,17 @@
+.datetime-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+    span {
+        margin-right: 20px;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+    p {
+    font-size: 1.2rem;
+    color: #455CE9;
+    }
+}
